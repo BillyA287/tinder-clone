@@ -7,21 +7,24 @@ import "./cards.css"
  
 function Card() {
     const [people, setPeople] = useState([]);
+     const [loading, setLoading]=useState(true)
 
     useEffect(() => {
       async function getData() {
-       const req = await axios.get("/binder/cards");
-
-       setPeople(req.data)
+          const req =  await axios.get("/binder/cards");
+          setPeople(req.data)
+          setLoading(false)
       }
+      
       getData()
     }, []);
 
     console.log(people)
+    console.log(loading)
 
     const swiped = (direction, nameToDelete) => {
         console.log("removing: " + nameToDelete);
-        // setLastDirection(direction);
+        
     }
 
     const outOfFrame = name => {
@@ -29,8 +32,10 @@ function Card() {
     }
 
     
+    
     return (
         <div className="cards">
+        {loading ?  "loading" : 
         <div className="card__container">
             {people.map((person) => (
                 <TinderCard
@@ -47,7 +52,7 @@ function Card() {
             )
             )}
         </div>
-            
+        }
         </div>
     )
 }
