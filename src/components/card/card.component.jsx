@@ -2,6 +2,7 @@
 import React, {useState, useEffect} from 'react'
 import TinderCard from 'react-tinder-card'
 import axios from '../../api/axios'
+import Spinner from '../spinner/spinner.component'
 import "./cards.css"
 
  
@@ -35,7 +36,7 @@ function Card() {
     
     return (
         <div className="cards">
-        {loading ?  "loading" : 
+        {loading ?  <Spinner/> : 
         <div className="card__container">
             {people.map((person) => (
                 <TinderCard
