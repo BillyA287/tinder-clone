@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/binder/static/css/main.273bfc52.chunk.css",
+    "main.js": "/binder/static/js/main.8e62d421.chunk.js",
+    "main.js.map": "/binder/static/js/main.8e62d421.chunk.js.map",
+    "runtime-main.js": "/binder/static/js/runtime-main.47af2036.js",
+    "runtime-main.js.map": "/binder/static/js/runtime-main.47af2036.js.map",
+    "static/js/2.8fb25290.chunk.js": "/binder/static/js/2.8fb25290.chunk.js",
+    "static/js/2.8fb25290.chunk.js.map": "/binder/static/js/2.8fb25290.chunk.js.map",
+    "static/js/3.d9889868.chunk.js": "/binder/static/js/3.d9889868.chunk.js",
+    "static/js/3.d9889868.chunk.js.map": "/binder/static/js/3.d9889868.chunk.js.map",
+    "index.html": "/binder/index.html",
+    "static/css/main.273bfc52.chunk.css.map": "/binder/static/css/main.273bfc52.chunk.css.map",
+    "static/js/2.8fb25290.chunk.js.LICENSE.txt": "/binder/static/js/2.8fb25290.chunk.js.LICENSE.txt",
+    "static/media/letter-b.8c252ae3.svg": "/binder/static/media/letter-b.8c252ae3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47af2036.js",
+    "static/js/2.8fb25290.chunk.js",
+    "static/css/main.273bfc52.chunk.css",
+    "static/js/main.8e62d421.chunk.js"
+  ]
+}
