@@ -50,8 +50,10 @@ function Card() {
                    <h3>{person.name}</h3>
                </div>
                 </TinderCard>
+                
             )
             )}
+            <h1>Refresh!</h1>
         </div>
         }
         </div>
